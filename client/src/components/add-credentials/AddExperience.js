@@ -128,7 +128,7 @@ class AddExperience extends Component {
                   Current Job
                 </label>
               </div>
-              <TextFieldGroup 
+              <TextAreaFieldGroup 
                 placeholder= "Job Description"
                 name="description"
                 value= {this.state.description}
